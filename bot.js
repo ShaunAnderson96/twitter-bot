@@ -1,5 +1,6 @@
 var Twit = require("twit");
 
+//I have my API tokens hidden in a config.js file
 const config = require("./config");
 const T = new Twit(config);
 
